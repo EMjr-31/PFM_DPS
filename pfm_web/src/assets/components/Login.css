@@ -1,0 +1,126 @@
+.login-container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.banner {
+  flex: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(to top, #021b79, #062588, #082f97, #0939a7, #0744b7, #0151c2, #005dcc, #006ad6, #007bdb, #008bdd, #1f99dd, #44a7dc);
+  color: white;
+}
+
+.banner h1 {
+  font-size: 40px;
+  margin-left: 15%;
+  padding: 0;
+  margin-bottom: 5px;
+}
+.banner p{
+  margin-top: 0;
+  font-size: 18px;
+  margin-left: 15%;
+  padding: 0;
+}
+.form {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contenedor_img {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.contenedor_bienvenida{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.contenedor_bienvenida h3{
+  margin-bottom: 0;
+  font-size: 22px;
+}
+.contenedor_bienvenida p{
+  margin-top: 0;
+}
+
+
+img {
+  margin-top: 0;
+  max-width: 300px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  height: 30px;
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+}
+
+button {
+  height: 50px;
+  margin-top:10px ;
+  width: 320px;
+  background-color: #1752c9;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+ .opciones{
+  margin-top: 10px;
+  color:#666;
+ }
+
+.btn-google{
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+  
+}
+.btn-google:hover{
+  background-color: gray;
+  color: white;
+}
+
+.google-icon {
+  font-size: 20px;
+  margin-right: 10px; /* Espacio entre el ícono y el texto */
+}
+
+.button-text {
+  font-size: 16px;
+}
+
+.opciones span{
+  font-weight: 50;
+ }
