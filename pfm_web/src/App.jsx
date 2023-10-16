@@ -10,7 +10,7 @@ import Registro from './assets/components/Registro';
 function App() {
 
   return (
-    <Login/>
+    <Dashboard/>
   )
 }
 

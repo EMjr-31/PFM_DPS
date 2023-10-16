@@ -4,7 +4,7 @@ import logo from '../img/LogoPFCIniciales_.png'; // Importa la imagen
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faChartBar, faFile, faCog, faSignOutAlt ,faChevronRight,faBriefcase, faUsers, faShop, faClock, faGear,  faRightFromBracket,faSearch, faPen, faEye, faTrash, faFilePen} from '@fortawesome/free-solid-svg-icons';
 
-function Dashboard({user}) {
+function Comercial({user}) {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [selectedItem, setSelectedItem] = useState(null);
@@ -142,4 +142,4 @@ function Dashboard({user}) {
   );
 }
 
-export default Dashboard;
+export default Comercial;
